@@ -1,6 +1,7 @@
 package HW3;
 
 public class Director extends Employee {
+
     public Director(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth) {
         super(name, dayOfBirth, monthOfBirth, yearOfBirth);
     }
@@ -10,4 +11,5 @@ public class Director extends Employee {
             employee.setSalary(employee.getSalary() + salary);
         }
     }
+
 }
